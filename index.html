@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abubakar Hassan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Eng Abukar Hassan<br></span>From Somalia</h1>
+            </div>
+        </div>
+        <!--------------About---------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate UI/UX Designer focused on creating clean, intuitive, and user-centered 
+                        digital experiences. I design interfaces that are visually appealing, easy to use, and solve real user problems.</p>
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>       
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/app Interfaces</li>
+                                <li><span>Web Development</span><br>Web Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS App</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025 - Current</span><br>Supervisor at National Independent Electoral and Boundaries Commission (NIEBC)</li>
+                                <li><span>2024 - 2025</span><br>Manager at Camuudi Sign</li>
+                                <li><span>2023 - 2024</span><br> Graphic Designer at Modern Technology</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Computer Science and IT at Capital University</li>
+                                <li><span>2019</span><br>High School Certificate at Mu'ad Bin Jabal PSS</li>
+                                <li><span>2018</span><br>Diploma English at Al-Abaadir Institute of Languages</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------------Services---------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I design modern, responsive,  and user-friendly websites that work 
+                    perfectly on all devices and help businesses grow online.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I create clean and intuitive user interfaces with a strong focus on user 
+                    experience, ensuring easy navigation and a smooth digital journey.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I design attractive and functional mobile app interfaces that provide a seamless 
+                    and engaging experience for users.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+<!------------Portfolio--------------------------->
+<div id="portfolio">
+<div class="container">
+     <h1 class="sub-title">My Works</h1>
+     <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Business Design</h3>
+                <p>I design modern, responsive websites that are fast, easy to use, 
+                    and work perfectly on all devices. My goal is to help businesses build a strong online presence.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Creative Design</h3>
+                <p>I create user-friendly and intuitive interfaces by focusing on user needs, simplicity, and smooth user experience 
+                    to increase engagement and satisfaction.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Hotel Services App</h3>
+                <p>I design clean and attractive mobile app interfaces that are easy to navigate and provide a smooth experience for both 
+                    Android and iOS users.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+     </div>
+    <a href="#" class="btn">See More</a> 
+</div>
+</div>
+
+<!--------------contact-------------------->
+<div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p> <i class="fa-solid fa-square-envelope"></i>bakarano10@gmail.com</p> 
+          <p> <i class="fa-solid fa-square-phone"></i>0615739566</p> 
+          <div class="social-icons">
+            <a href="https://www.facebook.com/bakaranovic"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.x-twitter.com/bakaranovic"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.instagram.com/bakaranovic"><i class="fa-brands fa-square-instagram"></i></i></a>
+            <a href="https://www.linkedin.com/in/abukar-hassan-abukar-4480593a1/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.tiktok.com/bakaranovic"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required> 
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+      </div>  
+    </div>
+    <div class="copyright">
+        <p>Copright © 2025 | Abukar Hassan | <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+  </script>
+
+
+<script>
+
+var sidemeu = document.getElementById("sidemenu");
+
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz9zeplAMSkbvQ3S80VE4kOkn5ZRrsCVU8t-qGEXyGCoLCg0KdhRGsNFyIrrHTKlj6R/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfuly"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+
+
+
+</body>
+</html>
